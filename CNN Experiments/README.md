@@ -1,6 +1,6 @@
 # UNDERSTANDING DEEP LEARNING REQUIRES RETHINKING GENERALIZATION
 
-#ON LARGE-BATCH TRAINING FOR DEEP LEARNING : GENERALIZATION GAP AND SHARP MINIMA
+# ON LARGE-BATCH TRAINING FOR DEEP LEARNING : GENERALIZATION GAP AND SHARP MINIMA
 
 - Numerically experiment the difference between Large batch training and Small batch training to deep learning.
 - Promising Results:
@@ -15,10 +15,10 @@
 - Training trajectory will not influence the final result very much, because of even differnet training trajectory will result in different local minima, whose generalization error does differ too much.
 
 
-#AN EMPIRICAL ANALYSIS OF DEEP NETWORK LOSS SURFACES
+# AN EMPIRICAL ANALYSIS OF DEEP NETWORK LOSS SURFACES
 - An emperical study to show that different optimization procedure will result in different local minima, which are seperated by high loss weight parameters, even the same initialization or switch method intermediately near convergent point. Compared different optimization methods, different methods result in different type local minima (large basin (ADAM) v.s. small basin(SGD))
 
-- However, thia paper is a poor writing, it doesn't clarify the experiments' setting, which degrade the paper's quality. 
+- However, thia paper is a poor writing, it doesn't clarify the experiments' setting, which degrade the paper's quality.
 - Some loss surface are training loss, while some are testing loss. we need to do experiments to clarify the result.
 
 - To verify the result. we need to rerun experiments to get the training loss surface and test loss surface (I believe the result in this paper is true).
